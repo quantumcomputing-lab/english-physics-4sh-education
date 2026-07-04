@@ -345,22 +345,18 @@ a   { text-decoration: none; color: inherit; }
 }
 
 .topic-diagram {
-    width: 90%;
-    max-width: 684px; /* 90% of the 760px text column */
+    width: 99%;
+    max-width: 752px; /* 99% of the 760px text column */
     margin: 2.5rem auto;
-    background: var(--charcoal);
-    border: 1px solid rgba(255,255,255,0.08);
-    border-radius: 6px;
-    box-shadow: 0 16px 48px rgba(0,0,0,0.18);
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2rem;
 }
 .topic-diagram img {
     width: 100%;
     height: auto;
     object-fit: contain;
+    border-radius: 6px;
 }
 
 /* End-of-chapter CTA — same weight as the contact form's "Count me in"
